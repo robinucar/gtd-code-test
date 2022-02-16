@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+}
+nav {
+  background-color: #3b3c40;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav span {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+nav .search-input {
+  background-color: #202124;
+  padding-left: 30px;
+  position: relative;
+}
+
+nav .search-input input {
+    background-color: #202124;
+    border: none;
+    outline: none;
+    color: #fff;
+    margin-top: 5px;
+}
+nav .search-input img {
+    position: absolute;
+    left: 7px;
+    top: 7px;
+}
+header {
+    background-image: url('./media/img_hero.jpg');
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+header .head {
+    color: #26272b;
+   font-weight: bolder;
+   font-size: 70px; 
+}
+.team {
+    display: flex;
+    justify-content: center;
+    margin-top: -135px;
+}
+.member {
+    border-radius: 100%;
+}
+.team img{
+    
+    padding: 30px;
+}
+
+.main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main .title {
+    color:#e0a810 ;
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+
+.main .context {
+    width: 40%;
+    margin: auto;
+    padding-bottom: 45px;
+    color: #1a1712;
+    
+}
+
+.team-main {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.main .main-img {
+   height: 80px;  
+}
+.main .info {
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    
+}
+.main .name {
+   color: #e0a810;
+}
+hr {
+    height: 10px;
+    background-color:#e0a810;
+    border: none;
+    margin-top: 75px;
+}
+
+footer {
+    background-color:#3b3c40; ;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.column {
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+.column h3{
+    color: #e0a810
+}
+
+.column ul {
+    margin-top: 15px;
+}
+
+.column ul .join {
+    margin-top: 15px;
+}
